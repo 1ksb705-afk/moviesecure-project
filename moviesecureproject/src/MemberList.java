@@ -16,7 +16,7 @@ public class MemberList {
             System.out.println("[영화관 회원 목록]");
             while (rs.next()){
                 int memberId = rs.getInt("m_id");
-                String userId = rs.getString("usr_id");
+                String userId = rs.getString("user_id");
                 String memberName = rs.getString("m_name");
                 String memberRole = rs.getString("m_role");
 
